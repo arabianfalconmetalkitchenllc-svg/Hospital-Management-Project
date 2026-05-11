@@ -9,8 +9,57 @@ body{
 }
 .container{
     width: 100%;
-    height: 100vh;
+   
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+}
+header h1{
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+main{
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 400px;
+}
+.hero-section{
+    background: url('hospital.jpg') no-repeat center center/cover;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.hero-section h2{
+    font-size: 36px;
+    background-color: rgb(62, 113, 158);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
