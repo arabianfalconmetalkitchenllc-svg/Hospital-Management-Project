@@ -74,3 +74,14 @@ footer{
 .layer-page h2{
     margin-bottom: 20px;
 }
+.layer-page form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.layer-page form input, .layer-page form select{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
